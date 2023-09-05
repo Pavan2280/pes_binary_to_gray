@@ -1,1 +1,1 @@
-# pes_binary_to_gray
+# BINARY TO GRAY CONVERTER
