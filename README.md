@@ -36,28 +36,29 @@ make -j 4
 
 **Note** : For iverilog installation, follow the corresponding part under "run_ubuntu.sh" file under files section
 
+1) **Yosys** : Yosys is an open-source synthesis tool.
+- It converts RTL (Register Transfer Level) descriptions written in HDL (Hardware Description Language) into optimized gate-level netlists for digital circuit designs.
+- Inputs to Yosys include a liberty file (.lib), which describes the characteristics of the target technology library, and a design file written in an HDL.
+- The output of Yosys is a synthesized netlist mapped with the provided technology library, which is used for further steps in the digital design flow, such as place and route.
+
+2) **Iverilog** : Iverilog is an open-source Verilog simulation and synthesis tool 
+- It allows designers to verify their digital designs using simulation and generate netlists for synthesis.
+- Inputs to Iverilog include testbench and design files written in Verilog.
+- The output of Iverilog is typically a VCD (Value Change Dump) file. VCD files store data related to simulation, such as signal value changes, and are used for waveform visualization and analysis.
+  
+3) **GTKWave** : GTKWave is an open-source waveform viewer.
+- It provides graphical visualization of simulation results produced by digital design simulation tools like Iverilog.
+- Inputs to GTKWave include VCD files, which store simulation data.
+- The output of GTKWave is a graphical waveform view that helps designers debug and analyze the behavior of digital circuits during simulation.
+
 # Introduction 
 > Binary to Gray code conversion is a method used in digital electronics and communication systems to transform binary numbers into Gray code. Gray code is a binary numeral system where consecutive numbers differ by only one bit, making it useful in minimizing errors and noise in various applications. 
 
 # Truth Table
 ![b_g](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/1e5a6b75-3139-42b0-a33b-99c579ea8dc2)
 
-# RTL design using Verilog with SKY130 Technology
-
-+ Verilog RTL Design: RTL design is a method used in digital circuit design where the behavior of a system is described using a hardware description language (HDL) like Verilog. It focuses on describing how data is transferred and manipulated between registers, representing the functional blocks of a digital system. This abstraction level is closer to the actual hardware implementation, making it suitable for describing complex digital systems.
-
-+ Behavioral vs. RTL: Verilog offers different levels of abstraction for design. Behavioral describes the system's functionality without specifying the details of how it is implemented, while RTL focuses on how data moves between registers and the logic that operates on that data. RTL design provides a higher level of detail and control over the hardware structure.
-
-+ Registers and Combinational Logic: In RTL design, a digital system is composed of registers (flip-flops) that store data and combinational logic that processes the data. The data flow between registers is described using signals and assignments. Combinational logic is described using procedural blocks, where you specify how inputs are transformed into outputs using Verilog statements.
-
-+ Synthesis: Once the RTL description is complete, the design can be synthesized. Synthesis is the process of transforming the RTL description into a gate-level netlist, which represents the design using actual logic gates and flip-flops. This netlist can then be used to create physical layouts for fabrication. Synthesis tools optimize the design for factors like area, power, and timing.
-
-+ Design Hierarchy: Larger systems are often broken down into hierarchical modules, each with its own RTL description. These modules communicate with each other using defined interfaces. This modular approach makes it easier to manage complexity and allows for reusable designs. Hierarchical designs can be synthesized together to create a complete system.
-
 # Introduction to open-source simulator iverilog
-
 + Iverilog Based Simulation Flow
-
 ![iv](https://github.com/Pavan2280/pes_asic_class/assets/131603225/da9c25d9-c1dd-4f47-8e2e-edd5a839e3c8)
 
 # Code SS
@@ -65,6 +66,8 @@ make -j 4
 ![5](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/03497447-33ee-4d25-809f-2f6f79f325b0)
 
 # RTL Simulation :
+> RTL simulation is primarily used for verifying the correctness of a digital design. It allows designers to test and debug their designs before they are implemented in hardware. This helps in catching and rectifying design errors early in the development process, which can save time and resources.
+
 + Command to exectue
   ```
   iverilog pes_binary_to_gray.v pes_binary_to_gray_tb.v                                                                                                      
@@ -74,9 +77,9 @@ make -j 4
   ![1](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ac5938d1-8482-4a0d-8e56-3bbf7050143e)
 
 # RTL Synthesis :
+> RTL synthesis, which stands for Register-Transfer Level synthesis, is a crucial phase in the digital design process, specifically within the field of electronic design automation (EDA). RTL synthesis involves translating a high-level RTL description of a digital circuit (usually described in languages like VHDL or Verilog) into a gate-level representation that can be implemented in hardware.
 
 + Introduction to Yosys and Logic Synthesis
-
 ![y](https://github.com/Pavan2280/pes_asic_class/assets/131603225/96f84104-686e-4497-8c35-352a29b36268)
 
 + To Verify Synthesis
@@ -96,6 +99,7 @@ make -j 4
   ![6](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/4b853bb2-8a77-46b1-8bf3-7c97dcf5d103)
   
 # GLS Simulation:
+> Gate Level Simulation (GLS) is a crucial step in the electronic design verification process, especially in the context of digital integrated circuits. It is used for post-synthesis verification to ensure that the synthesized design meets the desired functionality and timing requirements.
 + Command to exectue
   ```
   iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_binary_to_gray_net.v pes_binary_to_gray_tb.v
