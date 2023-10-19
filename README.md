@@ -32,7 +32,7 @@ make -j 4
 #### To check if Yosys has been installed correctly, you need to type `yosys` in the terminal, and you should see the expected output as shown in the image below.
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/34a18d42-a8ce-48da-a3d6-1ece9b245802)
 
-** Files **
+**Files**
 All the required files for simulation and synthesis are present under [Lib_files](https://github.com/Pavan2280/pes_asic_class/tree/main/Lib_files) folder.
 
 # Introduction 
