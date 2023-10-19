@@ -36,6 +36,8 @@ make -j 4
 
 **Note** : For iverilog installation, follow the corresponding part under "run_ubuntu.sh" file under files section
 
+# Introduction to Yosys , Iverilog , GTKWave
+
 1) **Yosys** : Yosys is an open-source synthesis tool.
 - It converts RTL (Register Transfer Level) descriptions written in HDL (Hardware Description Language) into optimized gate-level netlists for digital circuit designs.
 - Inputs to Yosys include a liberty file (.lib), which describes the characteristics of the target technology library, and a design file written in an HDL.
@@ -51,7 +53,7 @@ make -j 4
 - Inputs to GTKWave include VCD files, which store simulation data.
 - The output of GTKWave is a graphical waveform view that helps designers debug and analyze the behavior of digital circuits during simulation.
 
-# Introduction 
+# Introduction to Binary to Gray Converter
 > Binary to Gray code conversion is a method used in digital electronics and communication systems to transform binary numbers into Gray code. Gray code is a binary numeral system where consecutive numbers differ by only one bit, making it useful in minimizing errors and noise in various applications. 
 
 # Truth Table
