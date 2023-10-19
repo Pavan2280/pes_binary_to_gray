@@ -6,6 +6,7 @@
 
 # Prerequisites installation
 Tools Required : gtkwave , iverilog , Yosys
+
 Please enter the following commands in the terminal.
 ```
 sudo apt update
