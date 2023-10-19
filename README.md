@@ -34,6 +34,8 @@ make -j 4
 
 **Files** : All the required files for simulation and synthesis are present under [Lib_files](https://github.com/Pavan2280/pes_asic_class/tree/main/Lib_files) folder.
 
+**Note** : For iverilog installation, follow the corresponding part under "run_ubuntu.sh" file under files section
+
 # Introduction 
 > Binary to Gray code conversion is a method used in digital electronics and communication systems to transform binary numbers into Gray code. Gray code is a binary numeral system where consecutive numbers differ by only one bit, making it useful in minimizing errors and noise in various applications. 
 
