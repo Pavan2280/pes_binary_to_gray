@@ -1,6 +1,6 @@
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/0c58c618-0432-46aa-a57c-7d4c43cf5369)
 
-# Implementation of Binary To Gray Design Model Simulation
+### Implementation of Binary To Gray Design Model Simulation
 
 #### Welcome to the Binary-to-Gray Design Model Simulation Repository!
 
