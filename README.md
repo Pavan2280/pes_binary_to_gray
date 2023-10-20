@@ -16,6 +16,8 @@
 # Truth Table
 ![b_g](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/1e5a6b75-3139-42b0-a33b-99c579ea8dc2)
 
+<a name="top"></a>
+
 # Table of contents
 <details>
 <summary>Prerequisites Installation</summary>
@@ -41,11 +43,13 @@ make -j 4
 **Files** : All the required lib files for simulation and synthesis are present under [Lib_files](https://github.com/Pavan2280/pes_binary_to_gray/tree/main/Lib_files) folder.
 
 **Note** : For iverilog installation, follow the corresponding part under "run_ubuntu.sh" file under files section
+[Back to Top](#top)
 </details>
 
 <details>
 <summary>Introduction to Yosys , Iverilog , GTKWave</summary>
 <br>
+  
 1) **Yosys** : Yosys is an open-source synthesis tool.
 - It converts RTL (Register Transfer Level) descriptions written in HDL (Hardware Description Language) into optimized gate-level netlists for digital circuit designs.
 - Inputs to Yosys include a liberty file (.lib), which describes the characteristics of the target technology library, and a design file written in an HDL.
@@ -69,13 +73,17 @@ make -j 4
 
 **Simple block diagram to Verify Synthesis**
 ![y2](https://github.com/Pavan2280/pes_asic_class/assets/131603225/5a3c649c-50c6-4795-8175-866ecd2e82a8)
+[Back to Top](#top)
 </details>
 
 <details>
 <summary>Code Snapshots</summary>
 <br>
+  
 ![4](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/35caa7a6-746e-4b5c-ab6a-a9f84b436816)
 ![5](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/03497447-33ee-4d25-809f-2f6f79f325b0)
+
+[Back to Top](#top)
 </details>
 
 <details>
@@ -90,6 +98,8 @@ make -j 4
   gtkwave pes_binary_to_gray_tb.vcd
   ```
   ![1](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ac5938d1-8482-4a0d-8e56-3bbf7050143e)
+  
+[Back to Top](#top)
 </details>
 
 <details>
@@ -109,12 +119,15 @@ make -j 4
   ```
   ![2](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/df3e4a18-2ff7-41ea-9b65-3352110e2948)
   ![6](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/4b853bb2-8a77-46b1-8bf3-7c97dcf5d103)
+  
+[Back to Top](#top)
 </details>
 
 <details>
 <summary>GLS Simulation</summary>
 <br>
 > Gate Level Simulation (GLS) is a crucial step in the electronic design verification process, especially in the context of digital integrated circuits. It is used for post-synthesis verification to ensure that the synthesized design meets the desired functionality and timing requirements.
+
 + Command to exectue
   ```
   iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_binary_to_gray_net.v pes_binary_to_gray_tb.v
@@ -122,4 +135,6 @@ make -j 4
   gtkwave pes_binary_to_gray_tb.vcd
   ```
   ![3](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/8911a3a9-6b51-4303-a398-dfd596620d34)
+
+  [Back to Top](#top)
 </details>
