@@ -130,12 +130,12 @@ make -j 4
 > Gate Level Simulation (GLS) is a crucial step in the electronic design verification process, especially in the context of digital integrated circuits. It is used for post-synthesis verification to ensure that the synthesized design meets the desired functionality and timing requirements.
 
 + Command to exectue
-  ```
-  iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_binary_to_gray_net.v pes_binary_to_gray_tb.v
-  ./a.out
-  gtkwave pes_binary_to_gray_tb.vcd
-  ```
-  ![3](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/8911a3a9-6b51-4303-a398-dfd596620d34)
+```
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_binary_to_gray_net.v pes_binary_to_gray_tb.v
+./a.out
+gtkwave pes_binary_to_gray_tb.vcd
+ ```
+![3](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/8911a3a9-6b51-4303-a398-dfd596620d34)
 
-  [Back to Top](#top)
+[Back to Top](#top)
 </details>
