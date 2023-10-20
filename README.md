@@ -17,11 +17,9 @@
 ![b_g](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/1e5a6b75-3139-42b0-a33b-99c579ea8dc2)
 
 # Table of contents
-
 <details>
 <summary>Prerequisites Installation</summary>
 <br>
-
 Tools Required : GTKWave , Iverilog , Yosys
 
 Please enter the following commands in the terminal.
@@ -43,13 +41,11 @@ make -j 4
 **Files** : All the required lib files for simulation and synthesis are present under [Lib_files](https://github.com/Pavan2280/pes_binary_to_gray/tree/main/Lib_files) folder.
 
 **Note** : For iverilog installation, follow the corresponding part under "run_ubuntu.sh" file under files section
-
 </details>
 
 <details>
 <summary>Introduction to Yosys , Iverilog , GTKWave</summary>
 <br>
-  
 1) **Yosys** : Yosys is an open-source synthesis tool.
 - It converts RTL (Register Transfer Level) descriptions written in HDL (Hardware Description Language) into optimized gate-level netlists for digital circuit designs.
 - Inputs to Yosys include a liberty file (.lib), which describes the characteristics of the target technology library, and a design file written in an HDL.
@@ -75,12 +71,16 @@ make -j 4
 ![y2](https://github.com/Pavan2280/pes_asic_class/assets/131603225/5a3c649c-50c6-4795-8175-866ecd2e82a8)
 </details>
 
-
-# Code SS
+<details>
+<summary>Code Snapshots</summary>
+<br>
 ![4](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/35caa7a6-746e-4b5c-ab6a-a9f84b436816)
 ![5](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/03497447-33ee-4d25-809f-2f6f79f325b0)
+</details>
 
-# RTL Simulation :
+<details>
+<summary>RTL Simulation</summary>
+<br>
 > RTL simulation is primarily used for verifying the correctness of a digital design. It allows designers to test and debug their designs before they are implemented in hardware. This helps in catching and rectifying design errors early in the development process, which can save time and resources.
 
 + Command to exectue
@@ -90,8 +90,11 @@ make -j 4
   gtkwave pes_binary_to_gray_tb.vcd
   ```
   ![1](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ac5938d1-8482-4a0d-8e56-3bbf7050143e)
+</details>
 
-# RTL Synthesis :
+<details>
+<summary>RTL Synthesis</summary>
+<br>
 > RTL synthesis, which stands for Register-Transfer Level synthesis, is a crucial phase in the digital design process, specifically within the field of electronic design automation (EDA). RTL synthesis involves translating a high-level RTL description of a digital circuit (usually described in languages like VHDL or Verilog) into a gate-level representation that can be implemented in hardware.
 
 + Command to exectue
@@ -106,8 +109,11 @@ make -j 4
   ```
   ![2](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/df3e4a18-2ff7-41ea-9b65-3352110e2948)
   ![6](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/4b853bb2-8a77-46b1-8bf3-7c97dcf5d103)
-  
-# GLS Simulation:
+</details>
+
+<details>
+<summary>GLS Simulation</summary>
+<br>
 > Gate Level Simulation (GLS) is a crucial step in the electronic design verification process, especially in the context of digital integrated circuits. It is used for post-synthesis verification to ensure that the synthesized design meets the desired functionality and timing requirements.
 + Command to exectue
   ```
@@ -116,3 +122,4 @@ make -j 4
   gtkwave pes_binary_to_gray_tb.vcd
   ```
   ![3](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/8911a3a9-6b51-4303-a398-dfd596620d34)
+</details>
