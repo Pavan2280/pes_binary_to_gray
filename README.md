@@ -13,7 +13,12 @@
 # Getting Started
 To start simulating the binary-to-gray design, follow the instructions below:
 
-# Prerequisites installation
+# Table of contents
+
+<details>
+<summary>Prerequisites installation</summary>
+<br>
+
 Tools Required : gtkwave , iverilog , Yosys
 
 Please enter the following commands in the terminal.
@@ -35,6 +40,8 @@ make -j 4
 **Files** : All the required lib files for simulation and synthesis are present under [Lib_files](https://github.com/Pavan2280/pes_binary_to_gray/tree/main/Lib_files) folder.
 
 **Note** : For iverilog installation, follow the corresponding part under "run_ubuntu.sh" file under files section
+
+</details>
 
 # Introduction to Yosys , Iverilog , GTKWave
 
