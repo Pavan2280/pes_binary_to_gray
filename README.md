@@ -16,9 +16,6 @@
 # Truth Table
 ![b_g](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/1e5a6b75-3139-42b0-a33b-99c579ea8dc2)
 
-# Getting Started
-To start simulating the binary-to-gray design, follow the instructions below:
-
 # Table of contents
 
 <details>
@@ -69,6 +66,7 @@ make -j 4
 - The output of GTKWave is a graphical waveform view that helps designers debug and analyze the behavior of digital circuits during simulation.
 
 </details>
+
 
 # Introduction to open-source simulator iverilog
 + Iverilog Based Simulation Flow
