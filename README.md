@@ -10,6 +10,12 @@
 # Purpose
 > The primary goal of this project is to provide you with a structured environment for simulating and validating the functionality of a binary-to-gray conversion design at both the RTL and gate-levels. By following the provided instructions, you can gain insights into the workings of digital circuits, test your design, and verify its correctness.
 
+# Introduction to Binary to Gray Converter
+> Binary to Gray code conversion is a method used in digital electronics and communication systems to transform binary numbers into Gray code. Gray code is a binary numeral system where consecutive numbers differ by only one bit, making it useful in minimizing errors and noise in various applications. 
+
+# Truth Table
+![b_g](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/1e5a6b75-3139-42b0-a33b-99c579ea8dc2)
+
 # Getting Started
 To start simulating the binary-to-gray design, follow the instructions below:
 
@@ -63,12 +69,6 @@ make -j 4
 - The output of GTKWave is a graphical waveform view that helps designers debug and analyze the behavior of digital circuits during simulation.
 
 </details>
-
-# Introduction to Binary to Gray Converter
-> Binary to Gray code conversion is a method used in digital electronics and communication systems to transform binary numbers into Gray code. Gray code is a binary numeral system where consecutive numbers differ by only one bit, making it useful in minimizing errors and noise in various applications. 
-
-# Truth Table
-![b_g](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/1e5a6b75-3139-42b0-a33b-99c579ea8dc2)
 
 # Introduction to open-source simulator iverilog
 + Iverilog Based Simulation Flow
