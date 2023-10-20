@@ -16,10 +16,10 @@ To start simulating the binary-to-gray design, follow the instructions below:
 # Table of contents
 
 <details>
-<summary>Prerequisites installation</summary>
+<summary>Prerequisites Installation</summary>
 <br>
 
-Tools Required : gtkwave , iverilog , Yosys
+Tools Required : GTKWave , Iverilog , Yosys
 
 Please enter the following commands in the terminal.
 ```
@@ -43,8 +43,10 @@ make -j 4
 
 </details>
 
-# Introduction to Yosys , Iverilog , GTKWave
-
+<details>
+<summary>Introduction to Yosys , Iverilog , GTKWave</summary>
+<br>
+  
 1) **Yosys** : Yosys is an open-source synthesis tool.
 - It converts RTL (Register Transfer Level) descriptions written in HDL (Hardware Description Language) into optimized gate-level netlists for digital circuit designs.
 - Inputs to Yosys include a liberty file (.lib), which describes the characteristics of the target technology library, and a design file written in an HDL.
@@ -59,6 +61,8 @@ make -j 4
 - It provides graphical visualization of simulation results produced by digital design simulation tools like Iverilog.
 - Inputs to GTKWave include VCD files, which store simulation data.
 - The output of GTKWave is a graphical waveform view that helps designers debug and analyze the behavior of digital circuits during simulation.
+
+</details>
 
 # Introduction to Binary to Gray Converter
 > Binary to Gray code conversion is a method used in digital electronics and communication systems to transform binary numbers into Gray code. Gray code is a binary numeral system where consecutive numbers differ by only one bit, making it useful in minimizing errors and noise in various applications. 
