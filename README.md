@@ -65,12 +65,16 @@ make -j 4
 - Inputs to GTKWave include VCD files, which store simulation data.
 - The output of GTKWave is a graphical waveform view that helps designers debug and analyze the behavior of digital circuits during simulation.
 
-</details>
-
-
-# Introduction to open-source simulator iverilog
 + Iverilog Based Simulation Flow
 ![iv](https://github.com/Pavan2280/pes_asic_class/assets/131603225/da9c25d9-c1dd-4f47-8e2e-edd5a839e3c8)
+
++ Introduction to Yosys and Logic Synthesis
+![y](https://github.com/Pavan2280/pes_asic_class/assets/131603225/96f84104-686e-4497-8c35-352a29b36268)
+
++ To Verify Synthesis
+![y2](https://github.com/Pavan2280/pes_asic_class/assets/131603225/5a3c649c-50c6-4795-8175-866ecd2e82a8)
+</details>
+
 
 # Code SS
 ![4](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/35caa7a6-746e-4b5c-ab6a-a9f84b436816)
@@ -89,12 +93,6 @@ make -j 4
 
 # RTL Synthesis :
 > RTL synthesis, which stands for Register-Transfer Level synthesis, is a crucial phase in the digital design process, specifically within the field of electronic design automation (EDA). RTL synthesis involves translating a high-level RTL description of a digital circuit (usually described in languages like VHDL or Verilog) into a gate-level representation that can be implemented in hardware.
-
-+ Introduction to Yosys and Logic Synthesis
-![y](https://github.com/Pavan2280/pes_asic_class/assets/131603225/96f84104-686e-4497-8c35-352a29b36268)
-
-+ To Verify Synthesis
-![y2](https://github.com/Pavan2280/pes_asic_class/assets/131603225/5a3c649c-50c6-4795-8175-866ecd2e82a8)
 
 + Command to exectue
   ```
