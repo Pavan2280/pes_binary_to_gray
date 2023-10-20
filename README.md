@@ -89,15 +89,16 @@ make -j 4
 <details>
 <summary>RTL Simulation</summary>
 <br>
+  
 > RTL simulation is primarily used for verifying the correctness of a digital design. It allows designers to test and debug their designs before they are implemented in hardware. This helps in catching and rectifying design errors early in the development process, which can save time and resources.
 
 + Command to exectue
-  ```
-  iverilog pes_binary_to_gray.v pes_binary_to_gray_tb.v                                                                                                      
-  ./a.out                                                                                                                                            
-  gtkwave pes_binary_to_gray_tb.vcd
-  ```
-  ![1](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ac5938d1-8482-4a0d-8e56-3bbf7050143e)
+```
+iverilog pes_binary_to_gray.v pes_binary_to_gray_tb.v                                                                                                      
+./a.out                                                                                                                                            
+gtkwave pes_binary_to_gray_tb.vcd
+```
+![1](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ac5938d1-8482-4a0d-8e56-3bbf7050143e)
   
 [Back to Top](#top)
 </details>
@@ -105,20 +106,22 @@ make -j 4
 <details>
 <summary>RTL Synthesis</summary>
 <br>
+  
 > RTL synthesis, which stands for Register-Transfer Level synthesis, is a crucial phase in the digital design process, specifically within the field of electronic design automation (EDA). RTL synthesis involves translating a high-level RTL description of a digital circuit (usually described in languages like VHDL or Verilog) into a gate-level representation that can be implemented in hardware.
 
 + Command to exectue
-  ```
-  yosys                                                                                                                                                 
-  read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib                                                                
-  read_verilog pes_binary_to_gray.v                                                                                                                   
-  synth -top pes_binary_to_gray                                                                                                                           
-  abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib                                                                
-  write_verilog -noattr pes_binary_to_gray_net.v
-  show
-  ```
-  ![2](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/df3e4a18-2ff7-41ea-9b65-3352110e2948)
-  ![6](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/4b853bb2-8a77-46b1-8bf3-7c97dcf5d103)
+```
+yosys                                                                                                                                                 
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog pes_binary_to_gray.v                                                                                                                   
+synth -top pes_binary_to_gray                                                                                                                           
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib                                                                
+write_verilog -noattr pes_binary_to_gray_net.v
+show
+```
+
+![2](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/df3e4a18-2ff7-41ea-9b65-3352110e2948)
+![6](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/4b853bb2-8a77-46b1-8bf3-7c97dcf5d103)
   
 [Back to Top](#top)
 </details>
@@ -129,12 +132,12 @@ make -j 4
 
 > Gate Level Simulation (GLS) is a crucial step in the electronic design verification process, especially in the context of digital integrated circuits. It is used for post-synthesis verification to ensure that the synthesized design meets the desired functionality and timing requirements.
 
-- Command to exectue
++ Command to exectue
 ```
 iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_binary_to_gray_net.v pes_binary_to_gray_tb.v
 ./a.out
 gtkwave pes_binary_to_gray_tb.vcd
- ```
+```
 ![3](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/8911a3a9-6b51-4303-a398-dfd596620d34)
 
 [Back to Top](#top)
