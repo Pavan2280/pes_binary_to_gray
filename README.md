@@ -17,9 +17,8 @@
 
 # Table of contents
 <details>
-<summary>Prerequisites Installation</summary>
+<summary>Prerequisites Installation - GTKWave , Iverilog , Yosys</summary>
 <br>
-Tools Required : GTKWave , Iverilog , Yosys
 
 Please enter the following commands in the terminal.
 ```
@@ -145,8 +144,11 @@ gtkwave pes_binary_to_gray_converter_tb.vcd
 </details>
 
 <details>
-<summary>Openlane2 installation</summary>
+<summary>Prerequisites Installation - Openlane2</summary>
 <br>
-  
+Please enter the following commands in the terminal.
+```
+
+```
 [Back to Top](#top)
 </details>
