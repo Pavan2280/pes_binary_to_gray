@@ -98,8 +98,9 @@ iverilog pes_binary_to_gray_converter.v pes_binary_to_gray_converter_tb.v
 ./a.out                                                                                                                                            
 gtkwave pes_binary_to_gray_converter_tb.vcd
 ```
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/2e58a07f-53f6-45e2-a181-c1f27dab03f9)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/9a0b70aa-8156-49e3-9fbc-aad584d0af7a)
 
-  
 [Back to Top](#top)
 </details>
 
@@ -113,16 +114,15 @@ gtkwave pes_binary_to_gray_converter_tb.vcd
 ```
 yosys                                                                                                                                                 
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-read_verilog pes_binary_to_gray.v                                                                                                                   
-synth -top pes_binary_to_gray                                                                                                                           
+read_verilog pes_binary_to_gray_converter.v                                                                                                                   
+synth -top pes_binary_to_gray_converter                                                                                                                           
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib                                                                
-write_verilog -noattr pes_binary_to_gray_net.v
+write_verilog -noattr pes_binary_to_gray_converter_net.v
 show
 ```
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/a167d38f-4871-43b4-960f-17d4466c231e)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/769d13b7-6a53-414d-8cdc-1212dbc6b97e)
 
-![2](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/df3e4a18-2ff7-41ea-9b65-3352110e2948)
-![6](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/4b853bb2-8a77-46b1-8bf3-7c97dcf5d103)
-  
 [Back to Top](#top)
 </details>
 
