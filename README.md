@@ -251,7 +251,7 @@ make test
 ## Stage 2 (RTL2GDSII - OPENLANE) - Table of contents
 
 <details>
-<summary>Openlane ASIC Design Flow</summary>
+<summary>Introduction to Openlane ASIC Design Flow</summary>
 <br>
 
 ![image](https://github.com/Pavan2280/pes_pd/assets/131603225/24e63c09-da0d-4da6-943c-f54d6abbda85)
