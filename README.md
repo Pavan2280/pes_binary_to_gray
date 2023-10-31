@@ -36,7 +36,7 @@ make -j 4
 
 <a name="top"></a>
 
-## Stage 1 - Table of contents
+## Stage 1 (RTL-GLS Simulation) - Table of contents
 
 <details>
 <summary>Introduction to Yosys , Iverilog , GTKWave</summary>
@@ -246,7 +246,7 @@ make test
 **Upon successful completion of the test, you will receive a 'Basic test passed' confirmation, indicating that you are now ready to use OpenLane2.**
 ![Screenshot from 2023-10-31 14-29-13](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/5dce98c3-5623-4621-9f00-adae009f7429)
 
-## Stage 2 - Table of contents
+## Stage 2 (RTL2GDSII - OPENLANE) - Table of contents
 
 <details>
 <summary> </summary>
@@ -262,16 +262,3 @@ make test
 [Back to Top](#top)
 </details>
 
-<details>
-<summary> </summary>
-<br>
-
-[Back to Top](#top)
-</details>
-
-<details>
-<summary> </summary>
-<br>
-
-[Back to Top](#top)
-</details>
