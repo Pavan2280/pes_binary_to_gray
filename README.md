@@ -209,6 +209,8 @@ sudo docker run hello-world
 
 **A successfull installation would look like**
 
+![Screenshot from 2023-10-31 14-19-01](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/42dee311-55ff-4fe5-a402-9c31a31ed837)
+
 + Making Docker available without root (Linux)
 ```
 sudo groupadd docker
