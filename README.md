@@ -299,6 +299,17 @@ make test
 [Back to Stage-2](#Stage-2)
 </details>
 
+![Screenshot from 2023-10-31 21-30-11](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/98f84586-8ac3-4e9c-afeb-583c57c075c0)
+
+![Screenshot from 2023-10-31 21-31-45](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/a0dfa76b-19ca-4a71-a1d0-df73bf03d71f)
+
+![Screenshot from 2023-10-31 21-32-08](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/e46dff72-b458-411e-a020-63734f2a2f80)
+
+![Screenshot from 2023-10-31 21-32-57](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/36de9c20-60d1-42e0-8964-fd0f930373ac)
+
+![Screenshot from 2023-10-31 21-33-18](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/170a34a3-d0d1-44a4-8c01-e0ec9d008418)
+
+![Screenshot from 2023-10-31 21-58-55](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/cc13434b-68ed-4c3c-9bfc-4b4cb8e5a1d1)
 
 [Back to Stage-2](#Stage-2)
 </details>
