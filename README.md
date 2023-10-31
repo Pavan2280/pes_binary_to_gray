@@ -142,6 +142,7 @@ gtkwave pes_binary_to_gray_converter_tb.vcd
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f275793a-e4de-4f47-82c2-d55f4b00e670)
 
 [Back to Top](#top)
+</details>
 
 <details>
 <summary>Openlane2 installation</summary>
