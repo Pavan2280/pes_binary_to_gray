@@ -347,14 +347,18 @@ run_synthesis
 
 **Floorplan**
 + Command to exectue
-****
 ```
 run_floorplan
 ```
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/e7192afb-3c6e-49a3-b675-6a763883d5f1)
+
+```
+magic -T /home/pavanstalegaon/OpenLane/pdk/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
+```
+
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/2e13e098-36ee-4237-b77f-f86d0330b965)
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/80d19995-0338-4577-b98d-402cff16c955)
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/27b8b2dc-2933-4e68-9919-5b9895a9fe86)
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/2e13e098-36ee-4237-b77f-f86d0330b965)
 
 **Placement**
 + Command to exectue
@@ -362,6 +366,11 @@ run_floorplan
 run_placement
 ```
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/77dc5322-9815-452f-abd3-9a84d73fe1e2)
+
+```
+magic -T /home/pavanstalegaon/OpenLane/pdk/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
+```
+
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/79866612-19bf-49ed-8873-555fbd5c282e)
 
 **CTS**
