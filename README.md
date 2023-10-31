@@ -221,6 +221,9 @@ sudo reboot # REBOOT!
 ```
 docker run hello-world
 ```
+**A successfull installation would look like**
+![Screenshot from 2023-10-31 14-24-36](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/7d747449-ca98-4fc8-b4b7-cfaf4c02beab)
+
 + Checking Installation Requirements
 ```
 git --version
