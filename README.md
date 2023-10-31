@@ -308,7 +308,7 @@ cd pes_binary_to_gray_converter
 ls
 ```
 The `pes_binary_to_gray_converter` folder should have these files that is `config.json`, `pes_binary_to_gray_converter.v` and the `src` folder.
-The `src` folder should contain all these files 
+The `src` folder should contain thes [Files](https://github.com/Pavan2280/pes_binary_to_gray/tree/main/src)
 The `pdks` folder must have this file
 ![Screenshot from 2023-10-31 21-30-11](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/98f84586-8ac3-4e9c-afeb-583c57c075c0)
 
