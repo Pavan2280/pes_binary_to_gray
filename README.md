@@ -334,8 +334,24 @@ prep -design pes_binary_to_gray_converter
 </details>
 
 <details>
-<summary></summary>
+<summary>Synthesis,Floorplan,Placement,CTS,Routing</summary>
 <br>
 
+**Synthesis**
++ Command to exectue
+```
+run_synthesis
+```
+
++ Command to exectue
+****
+```
+
+```
+
+****
+```
+
+```
 [Back to Stage-2](#Stage-2)
 </details>
