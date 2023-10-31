@@ -380,5 +380,13 @@ run_cts
 ```
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/0f5f9ab2-d8f4-480f-afc3-a0dff3fed912)
 
+**The reports generated are given below , after executing run_cts command**
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/c6a9ba82-937f-4f1b-a754-55f5aa89e752)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/65d0a011-7609-4bfd-ae64-8d48e3f7879b)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/4b86c41d-056f-4267-b5ab-b0591d6e1486)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/261afd9c-1e0d-4852-b0a9-86ec2e645aad)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/0351122a-54e5-4255-9513-6975fb02a717)
+
+
 [Back to Stage-2](#Stage-2)
 </details>
