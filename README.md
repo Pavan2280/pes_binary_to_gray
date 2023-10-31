@@ -387,6 +387,18 @@ run_cts
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/261afd9c-1e0d-4852-b0a9-86ec2e645aad)
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/0351122a-54e5-4255-9513-6975fb02a717)
 
+**Routing**
++ Command to exectue
+```
+run_routing
+```
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/65a665bf-d5ac-4d53-b207-1e2b5ef1c278)
+
+```
+magic -T /home/pavanstalegaon/OpenLane/pdk/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
+```
+
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/38a61ce2-30f4-4ab2-b970-b2cb9496a32e)
 
 [Back to Stage-2](#Stage-2)
 </details>
