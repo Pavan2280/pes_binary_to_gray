@@ -316,7 +316,26 @@ The `pdks` folder must have this [File](https://github.com/Pavan2280/pes_binary_
 [Back to Stage-2](#Stage-2)
 </details>
 
+<details>
+<summary>Interactive OpenLane flow</summary>
+<br>
 
+Open terminal and type the following commands.
+```
+cd OpenLane/ 
+make mount 
+./flow.tcl -interactive
+package require openlane 0.9
+prep -design pes_binary_to_gray_converter
+```
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/d834210a-c527-4a73-85e2-937b7d7ffdf0)
+
+[Back to Stage-2](#Stage-2)
+</details>
+
+<details>
+<summary></summary>
+<br>
 
 [Back to Stage-2](#Stage-2)
 </details>
