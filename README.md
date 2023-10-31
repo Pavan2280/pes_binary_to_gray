@@ -34,7 +34,7 @@ make -j 4
 
 **Note** : For iverilog installation, follow the corresponding part under "run_ubuntu.sh" file under files section
 
-<a name="top"></a>
+<a name="Stage-1"></a>
 
 ## Stage 1 (RTL-GLS Simulation) - Table of contents
 
@@ -65,7 +65,7 @@ make -j 4
 
 **Simple block diagram to Verify Synthesis**
 ![y2](https://github.com/Pavan2280/pes_asic_class/assets/131603225/5a3c649c-50c6-4795-8175-866ecd2e82a8)
-[Back to Top](#top)
+[Back to Stage-1](#Stage-1)
 </details>
 
 <details>
@@ -77,7 +77,7 @@ make -j 4
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b06f751d-96f5-4767-a0ee-d38b48ff05c0)
 
 
-[Back to Top](#top)
+[Back to Stage-1](#Stage-1)
 </details>
 
 <details>
@@ -95,7 +95,7 @@ gtkwave pes_binary_to_gray_converter_tb.vcd
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/2e58a07f-53f6-45e2-a181-c1f27dab03f9)
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/9a0b70aa-8156-49e3-9fbc-aad584d0af7a)
 
-[Back to Top](#top)
+[Back to Stage-1](#Stage-1)
 </details>
 
 <details>
@@ -117,7 +117,7 @@ show
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/a167d38f-4871-43b4-960f-17d4466c231e)
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/769d13b7-6a53-414d-8cdc-1212dbc6b97e)
 
-[Back to Top](#top)
+[Back to Stage-1](#Stage-1)
 </details>
 
 <details>
@@ -135,7 +135,7 @@ gtkwave pes_binary_to_gray_converter_tb.vcd
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b349e39e-49fe-4a65-941d-f696039ea05d)
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f275793a-e4de-4f47-82c2-d55f4b00e670)
 
-[Back to Top](#top)
+[Back to Stage-1](#Stage-1)
 </details>
 
 ## Prerequisites Installation - For Stage 2 (RTL2GDSII - OPENLANE)
