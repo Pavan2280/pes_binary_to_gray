@@ -300,8 +300,11 @@ make test
 </details>
 
 Create a new folder within OpenLane with the same name as your design file `pes_binary_to_gray_converter`.
+
 Note `pes_binary_to_gray_converter` folder should have [config.json](https://github.com/Pavan2280/pes_binary_to_gray/blob/main/config.json), `pes_binary_to_gray_converter.v` and the `src` folder.
+
 Make sure `src` folder should has these [Files](https://github.com/Pavan2280/pes_binary_to_gray/tree/main/src)
+
 The `pdks` folder must have this [File](https://github.com/Pavan2280/pes_binary_to_gray/blob/main/sky130_fd_sc_hd.v)
 
 ![Screenshot from 2023-10-31 21-30-11](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/98f84586-8ac3-4e9c-afeb-583c57c075c0)
