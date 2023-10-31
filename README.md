@@ -77,9 +77,11 @@ make -j 4
 <details>
 <summary>Code Snapshots</summary>
 <br>
-  
-![4](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/35caa7a6-746e-4b5c-ab6a-a9f84b436816)
-![5](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/03497447-33ee-4d25-809f-2f6f79f325b0)
+
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/274ccee5-38fa-4a64-8a07-4df6e6e2a3b2)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/1f3f537e-005e-4560-8b84-af913001654f)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b06f751d-96f5-4767-a0ee-d38b48ff05c0)
+
 
 [Back to Top](#top)
 </details>
