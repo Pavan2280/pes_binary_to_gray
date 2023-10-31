@@ -299,7 +299,16 @@ make test
 [Back to Stage-2](#Stage-2)
 </details>
 
-1) **We need to create new folder inside Openlane**
+Create a new folder within OpenLane with the same name as your design file `pes_binary_to_gray_converter`, please follow these steps.
+```
+cd OpenLane
+cd designs
+ls
+cd pes_binary_to_gray_converter
+ls
+```
+The `pes_binary_to_gray_converter` should have these files that is `config.json`, `pes_binary_to_gray_converter.v` and the `src` folder.
+The `src` folder should contain all these files 
 ![Screenshot from 2023-10-31 21-30-11](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/98f84586-8ac3-4e9c-afeb-583c57c075c0)
 
 
