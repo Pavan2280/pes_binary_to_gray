@@ -13,7 +13,7 @@
 # Introduction to Binary to Gray Converter
 > Binary to Gray code conversion is a method used in digital electronics and communication systems to transform binary numbers into Gray code. Gray code is a binary numeral system where consecutive numbers differ by only one bit, making it useful in minimizing errors and noise in various applications. 
 
-## Prerequisites Installation - GTKWave , Iverilog , Yosys
+## Prerequisites Installation - For Stage 1
 Please enter the following commands in the terminal.
 ```
 sudo apt update
@@ -36,7 +36,7 @@ make -j 4
 
 <a name="top"></a>
 
-# Stage 1 - Table of contents
+## Stage 1 - Table of contents
 
 <details>
 <summary>Introduction to Yosys , Iverilog , GTKWave</summary>
@@ -138,8 +138,9 @@ gtkwave pes_binary_to_gray_converter_tb.vcd
 [Back to Top](#top)
 </details>
 
-# Stage 2 - Table of contents
-## Prerequisites Installation - Openlane2,Ngspice,Magic
+## Prerequisites Installation - For Stage 2
+
+## Stage 2 - Table of contents
 
 Please enter the following commands in the terminal.
 ```
