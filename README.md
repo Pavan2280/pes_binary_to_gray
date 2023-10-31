@@ -233,6 +233,8 @@ python3 -m pip --version
 make --version
 python3 -m venv -h
 ```
+![Screenshot from 2023-10-31 14-25-01](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/19c993aa-6a83-4303-96ef-31908a576062)
+
 #### Download and Install Openlane
 Run these one after the other
 ```
@@ -241,7 +243,8 @@ cd OpenLane/
 make
 make test
 ```
-**Successful test will output the following line**
+**You should get Basic test passed**
+![Screenshot from 2023-10-31 14-29-13](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/5dce98c3-5623-4621-9f00-adae009f7429)
 
 ## Stage 2 - Table of contents
 
