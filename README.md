@@ -98,8 +98,7 @@ iverilog pes_binary_to_gray_converter.v pes_binary_to_gray_converter_tb.v
 ./a.out                                                                                                                                            
 gtkwave pes_binary_to_gray_converter_tb.vcd
 ```
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b349e39e-49fe-4a65-941d-f696039ea05d)
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/8b552a5b-18e2-45db-816e-46167f807b03)
+
   
 [Back to Top](#top)
 </details>
@@ -135,11 +134,12 @@ show
 
 + Command to exectue
 ```
-iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_binary_to_gray_net.v pes_binary_to_gray_tb.v
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_binary_to_gray_converter_net.v pes_binary_to_gray_converter_tb.v
 ./a.out
-gtkwave pes_binary_to_gray_tb.vcd
+gtkwave pes_binary_to_gray_converter_tb.vcd
 ```
-![3](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/8911a3a9-6b51-4303-a398-dfd596620d34)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b349e39e-49fe-4a65-941d-f696039ea05d)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f275793a-e4de-4f47-82c2-d55f4b00e670)
 
 [Back to Top](#top)
 </details>
