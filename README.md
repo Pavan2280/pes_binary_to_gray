@@ -138,14 +138,39 @@ gtkwave pes_binary_to_gray_converter_tb.vcd
 [Back to Top](#top)
 </details>
 
-## Prerequisites Installation - For Stage 2
+## Prerequisites Installation - For Stage 2 (RTL2GDSII - OPENLANE)
 
+#### Magic Installation
+For magic installation please enter the following commands in the terminal.
+```
+sudo apt-get install m4
+sudo apt-get install tcsh
+sudo apt-get install csh
+sudo apt-get install libx11-dev
+sudo apt-get install tcl-dev tk-dev
+sudo apt-get install libcairo2-dev
+sudo apt-get install mesa-common-dev libglu1-mesa-dev
+sudo apt-get install libncurses-dev
+git clone https://github.com/RTimothyEdwards/magic
+cd magic
+./configure
+sudo make
+sudo make install
+```
+#### Ngspice Installation
+For ngspice installation please enter the following commands in the terminal.
+```
+sudo apt install ngspice
+```
+
+#### Openlane-2 Installation
+The original Documentation can be found here OpenLane Installation
+For Opelane-2 installation please enter the following commands in the terminal.
+```
+
+```
 ## Stage 2 - Table of contents
 
-Please enter the following commands in the terminal.
-```
-
-```
 <details>
 <summary></summary>
 <br>
