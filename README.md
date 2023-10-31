@@ -243,13 +243,34 @@ cd OpenLane/
 make
 make test
 ```
-**You should get Basic test passed**
+**Upon successful completion of the test, you will receive a 'Basic test passed' confirmation, indicating that you are now prepared to utilize OpenLane2.**
 ![Screenshot from 2023-10-31 14-29-13](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/5dce98c3-5623-4621-9f00-adae009f7429)
 
 ## Stage 2 - Table of contents
 
 <details>
-<summary></summary>
+<summary> </summary>
+<br>
+
+[Back to Top](#top)
+</details>
+
+<details>
+<summary> </summary>
+<br>
+
+[Back to Top](#top)
+</details>
+
+<details>
+<summary> </summary>
+<br>
+
+[Back to Top](#top)
+</details>
+
+<details>
+<summary> </summary>
 <br>
 
 [Back to Top](#top)
