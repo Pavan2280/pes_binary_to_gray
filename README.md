@@ -13,7 +13,7 @@
 # Introduction to Binary to Gray Converter
 > Binary to Gray code conversion is a method used in digital electronics and communication systems to transform binary numbers into Gray code. Gray code is a binary numeral system where consecutive numbers differ by only one bit, making it useful in minimizing errors and noise in various applications. 
 
-# Prerequisites Installation - GTKWave , Iverilog , Yosys
+## Prerequisites Installation - GTKWave , Iverilog , Yosys
 Please enter the following commands in the terminal.
 ```
 sudo apt update
@@ -36,33 +36,7 @@ make -j 4
 
 <a name="top"></a>
 
-# Table of contents
-<details>
-<summary>Prerequisites Installation - GTKWave , Iverilog , Yosys</summary>
-<br>
-
-Please enter the following commands in the terminal.
-```
-sudo apt update
-sudo apt upgrade
-sudo apt-get install gtkwave
-git clone https://github.com/YosysHQ/yosys.git
-cd yosys
-sudo apt install make
-sudo apt-get install build-essential clang bison flex  libreadline-dev gawk tcl-dev libffi-dev git  graphviz xdot pkg-config python3 libboost-system-dev libboost-python-dev libboost-filesystem-dev zlib1g-dev
-make config-gcc
-make -j 4
-```
-
-**To check if Yosys has been installed correctly, you need to type `yosys` in the terminal, and you should see the expected output as shown in the image below.**
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/34a18d42-a8ce-48da-a3d6-1ece9b245802)
-
-**Files** : All the required lib files for simulation and synthesis are present under [Lib_files](https://github.com/Pavan2280/pes_binary_to_gray/tree/main/Lib_files) folder.
-
-**Note** : For iverilog installation, follow the corresponding part under "run_ubuntu.sh" file under files section
-
-[Back to Top](#top)
-</details>
+# Stage 1 - Table of contents
 
 <details>
 <summary>Introduction to Yosys , Iverilog , GTKWave</summary>
@@ -164,12 +138,16 @@ gtkwave pes_binary_to_gray_converter_tb.vcd
 [Back to Top](#top)
 </details>
 
-<details>
-<summary>Prerequisites Installation - Openlane2</summary>
-<br>
+# Stage 2 - Table of contents
+## Prerequisites Installation - Openlane2,Ngspice,Magic
+
 Please enter the following commands in the terminal.
 ```
 
 ```
+<details>
+<summary></summary>
+<br>
+
 [Back to Top](#top)
 </details>
