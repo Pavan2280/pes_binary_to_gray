@@ -342,16 +342,34 @@ prep -design pes_binary_to_gray_converter
 ```
 run_synthesis
 ```
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f00db54b-1364-4534-be3d-49a99b4e1787)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ea8c0ff0-879a-4b7e-a0e9-a117631c9ec2)
 
+**Floorplan**
 + Command to exectue
 ****
 ```
-
+run_floorplan
 ```
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/e7192afb-3c6e-49a3-b675-6a763883d5f1)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/80d19995-0338-4577-b98d-402cff16c955)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/27b8b2dc-2933-4e68-9919-5b9895a9fe86)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/2e13e098-36ee-4237-b77f-f86d0330b965)
 
-****
+**Placement**
++ Command to exectue
 ```
+run_placement
+```
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/77dc5322-9815-452f-abd3-9a84d73fe1e2)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/79866612-19bf-49ed-8873-555fbd5c282e)
 
+**CTS**
++ Command to exectue
 ```
+run_cts
+```
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/0f5f9ab2-d8f4-480f-afc3-a0dff3fed912)
+
 [Back to Stage-2](#Stage-2)
 </details>
