@@ -94,11 +94,12 @@ make -j 4
 
 + Command to exectue
 ```
-iverilog pes_binary_to_gray.v pes_binary_to_gray_tb.v                                                                                                      
+iverilog pes_binary_to_gray_converter.v pes_binary_to_gray_converter_tb.v                                                                                                      
 ./a.out                                                                                                                                            
-gtkwave pes_binary_to_gray_tb.vcd
+gtkwave pes_binary_to_gray_converter_tb.vcd
 ```
-![1](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ac5938d1-8482-4a0d-8e56-3bbf7050143e)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b349e39e-49fe-4a65-941d-f696039ea05d)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/8b552a5b-18e2-45db-816e-46167f807b03)
   
 [Back to Top](#top)
 </details>
