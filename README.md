@@ -164,7 +164,9 @@ sudo apt install ngspice
 ```
 
 #### Openlane-2 Installation
-The original Documentation can be found here OpenLane Installation
+
+The original Documentation can be found here [OpenLane Installation](https://openlane.readthedocs.io/en/latest/getting_started/installation/installation_ubuntu.html)
+
 For Opelane-2 installation please enter the following commands in the terminal.
 ```
 
