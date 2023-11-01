@@ -345,6 +345,11 @@ run_synthesis
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f00db54b-1364-4534-be3d-49a99b4e1787)
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ea8c0ff0-879a-4b7e-a0e9-a117631c9ec2)
 
+**Note we need to use libs.tech file so we need to gitclone this https://github.com/hwiiiii/sky130A into pdks folder**
+```
+git clone https://github.com/hwiiiii/sky130A
+```
+
 **Floorplan**
 + Command to exectue
 ```
