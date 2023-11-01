@@ -358,7 +358,7 @@ git clone https://github.com/hwiiiii/sky130A
 ```
 
 ```
-magic -T /home/pavanstalegaon/OpenLane/pdk/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
+magic -T /home/pavanstalegaon/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
 ```
 
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/2e13e098-36ee-4237-b77f-f86d0330b965)
@@ -373,7 +373,7 @@ run_placement
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/77dc5322-9815-452f-abd3-9a84d73fe1e2)
 
 ```
-magic -T /home/pavanstalegaon/OpenLane/pdk/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
+magic -T /home/pavanstalegaon/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
 ```
 
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/79866612-19bf-49ed-8873-555fbd5c282e)
@@ -400,7 +400,7 @@ run_routing
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/65a665bf-d5ac-4d53-b207-1e2b5ef1c278)
 
 ```
-magic -T /home/pavanstalegaon/OpenLane/pdk/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
+magic -T /home/pavanstalegaon/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
 ```
 
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/38a61ce2-30f4-4ab2-b970-b2cb9496a32e)
