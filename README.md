@@ -352,13 +352,12 @@ run_floorplan
 ```
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/e7192afb-3c6e-49a3-b675-6a763883d5f1)
 
-```
-
 **Note we need to use libs.tech file so we need to gitclone this https://github.com/hwiiiii/sky130A into pdks folder**
 ```
 git clone https://github.com/hwiiiii/sky130A
 ```
 
+```
 magic -T /home/pavanstalegaon/OpenLane/pdk/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
 ```
 
