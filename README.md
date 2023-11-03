@@ -434,11 +434,11 @@ magic -T /home/pavanstalegaon/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky1
 
 ![WhatsApp Image 2023-11-03 at 18 12 58_294b5666](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f369388f-dafa-4c67-946c-17a5a8739d29)
 
-[Back to Stage-2](#Stage-2)
-
 #### Statistics
 - Internal Power = 1.39e-04 W
 - Switching Power = 3.00e-05
 - Leakage Power = 3.35e-10
 - Total Power = 1.69e-04
+
+[Back to Stage-2](#Stage-2)
 </details>
