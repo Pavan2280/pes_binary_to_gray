@@ -417,4 +417,10 @@ magic -T /home/pavanstalegaon/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky1
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/38a61ce2-30f4-4ab2-b970-b2cb9496a32e)
 
 [Back to Stage-2](#Stage-2)
+
+#### Statistics
+- Internal Power = 1.39e-04 W
+- Switching Power = 3.00e-05
+- Leakage Power = 3.35e-10
+- Total Power = 1.69e-04
 </details>
