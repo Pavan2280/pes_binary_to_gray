@@ -386,9 +386,7 @@ run_cts
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/0f5f9ab2-d8f4-480f-afc3-a0dff3fed912)
 
 **The reports generated are given below , after executing run_cts command**
-![WhatsApp Image 2023-11-03 at 18 07 23_0c24b3ce](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b3adcca1-6916-42cf-b54d-311a0df3aa53)
 
-![WhatsApp Image 2023-11-03 at 18 07 55_6d2c2127](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ed50e830-5873-4f60-ab9b-d7e572856087)
 
 **Routing**
 + Command to exectue
@@ -403,5 +401,22 @@ magic -T /home/pavanstalegaon/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky1
 
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/38a61ce2-30f4-4ab2-b970-b2cb9496a32e)
 
+**These reports generated are given below , after executing run_routing command**
+
+![WhatsApp Image 2023-11-03 at 18 07 23_0c24b3ce](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b3adcca1-6916-42cf-b54d-311a0df3aa53)
+
+![WhatsApp Image 2023-11-03 at 18 07 55_6d2c2127](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ed50e830-5873-4f60-ab9b-d7e572856087)
+
+![WhatsApp Image 2023-11-03 at 18 08 03_a453f791](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ed55bf13-f553-4d13-ba35-d4c52a996e26)
+
+![WhatsApp Image 2023-11-03 at 18 08 17_1775bd3d](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/26a7ee4c-dcf9-4463-8388-6264eef46cb0)
+
+![WhatsApp Image 2023-11-03 at 18 10 53_57884b22](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/276452bd-3bda-481e-8a94-e6c8da972785)
+
+![WhatsApp Image 2023-11-03 at 18 12 26_768d16e9](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/d104783c-0dc9-4064-ac68-9e45214fb9d7)
+
+![WhatsApp Image 2023-11-03 at 18 12 37_b8e2f46b](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/9b4a4a07-95ee-4e13-9305-7538afffebd4)
+
+![WhatsApp Image 2023-11-03 at 18 12 58_294b5666](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f369388f-dafa-4c67-946c-17a5a8739d29)
 [Back to Stage-2](#Stage-2)
 </details>
