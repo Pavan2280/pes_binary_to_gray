@@ -387,6 +387,22 @@ run_cts
 
 **These reports generated are given below , after executing run_cts command**
 
+
+**Routing**
++ Command to exectue
+```
+run_routing
+```
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/65a665bf-d5ac-4d53-b207-1e2b5ef1c278)
+
+```
+magic -T /home/pavanstalegaon/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
+```
+
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/38a61ce2-30f4-4ab2-b970-b2cb9496a32e)
+
+**These reports generated are given below , after executing run_routing command**
+
 ![WhatsApp Image 2023-11-03 at 18 07 23_0c24b3ce](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b3adcca1-6916-42cf-b54d-311a0df3aa53)
 
 ![WhatsApp Image 2023-11-03 at 18 07 55_6d2c2127](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ed50e830-5873-4f60-ab9b-d7e572856087)
@@ -403,18 +419,6 @@ run_cts
 
 ![WhatsApp Image 2023-11-03 at 18 12 58_294b5666](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f369388f-dafa-4c67-946c-17a5a8739d29)
 
-**Routing**
-+ Command to exectue
-```
-run_routing
-```
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/65a665bf-d5ac-4d53-b207-1e2b5ef1c278)
-
-```
-magic -T /home/pavanstalegaon/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_binary_to_gray_converter.def &
-```
-
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/38a61ce2-30f4-4ab2-b970-b2cb9496a32e)
 
 [Back to Stage-2](#Stage-2)
 
