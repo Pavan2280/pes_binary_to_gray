@@ -388,6 +388,7 @@ run_cts
 **The reports generated are given below , after executing run_cts command**
 ![WhatsApp Image 2023-11-03 at 18 07 23_0c24b3ce](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b3adcca1-6916-42cf-b54d-311a0df3aa53)
 
+![WhatsApp Image 2023-11-03 at 18 07 55_6d2c2127](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/ed50e830-5873-4f60-ab9b-d7e572856087)
 
 **Routing**
 + Command to exectue
