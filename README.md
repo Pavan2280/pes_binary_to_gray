@@ -388,16 +388,13 @@ run_cts
 **The reports generated are given below , after executing run_cts command**
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/fe16df04-a2e7-4fc3-80d4-6c4b32f5b4ea)
 
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/65d0a011-7609-4bfd-ae64-8d48e3f7879b)
-
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/03cd11fe-79c5-4e9d-ad1b-79cbc96445e5)
-
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/4b86c41d-056f-4267-b5ab-b0591d6e1486)
 
 ![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/18958d79-5cb4-4c3b-bb47-2b0dd9ee57e7)
 
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/261afd9c-1e0d-4852-b0a9-86ec2e645aad)
-![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/0351122a-54e5-4255-9513-6975fb02a717)
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f31b397c-cc17-41a9-9495-4f73f097e858)
+
+![image](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/b7a47274-982f-4bce-af7c-ccc25a131405)
 
 **Routing**
 + Command to exectue
