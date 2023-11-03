@@ -387,6 +387,21 @@ run_cts
 
 **These reports generated are given below , after executing run_cts command**
 
+![WhatsApp Image 2023-11-03 at 18 45 54_26baa361](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/de120007-2765-49a1-83c1-e188e784460d)
+
+![WhatsApp Image 2023-11-03 at 18 45 55_db237259](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/4ca78b94-4070-4a14-800c-80afe1563e4c)
+
+![WhatsApp Image 2023-11-03 at 18 45 55_f26bce5c](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/d2e83b70-4015-494d-b0e3-3fa22884fb61)
+
+![WhatsApp Image 2023-11-03 at 18 45 55_e586ad61](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/34d9d341-e4b8-464f-b4a5-1ba37bf40674)
+
+![WhatsApp Image 2023-11-03 at 18 45 56_96e020b8](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/483fa9f7-754a-41b1-8bce-1d588b4f5fb7)
+
+![WhatsApp Image 2023-11-03 at 18 45 56_4c8b1dce](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/8083ed33-59d9-4c0c-8b27-fae5f7652061)
+
+![WhatsApp Image 2023-11-03 at 18 45 56_a7f194f7](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/805faf92-eb03-43cf-93c3-d3022d94cec1)
+
+![WhatsApp Image 2023-11-03 at 18 45 57_a033e87e](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/061941d1-bb0f-4918-af78-dd110656717d)
 
 **Routing**
 + Command to exectue
@@ -418,7 +433,6 @@ magic -T /home/pavanstalegaon/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky1
 ![WhatsApp Image 2023-11-03 at 18 12 37_b8e2f46b](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/9b4a4a07-95ee-4e13-9305-7538afffebd4)
 
 ![WhatsApp Image 2023-11-03 at 18 12 58_294b5666](https://github.com/Pavan2280/pes_binary_to_gray/assets/131603225/f369388f-dafa-4c67-946c-17a5a8739d29)
-
 
 [Back to Stage-2](#Stage-2)
 
